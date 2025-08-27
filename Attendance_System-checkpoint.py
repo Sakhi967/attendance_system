@@ -11,14 +11,14 @@ import sys
 
 # Configuration
 CLASSROOM_NO = "101"
-CLASS_TIME = "10:09"  # Set your class time here (HH:MM) - Update this line
-INSTRUCTOR_EMAIL = None  # Set to your email for reminders
+CLASS_TIME = "10:09"  
+INSTRUCTOR_EMAIL = None  
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "your_email@gmail.com"
 SMTP_PASS = "your_app_password"
 
-# US Federal Holidays for 2025 (add Indian holidays as needed)
+
 HOLIDAYS_2025 = {
     datetime.date(2025, 1, 1), datetime.date(2025, 1, 20), datetime.date(2025, 2, 17),
     datetime.date(2025, 5, 26), datetime.date(2025, 6, 19), datetime.date(2025, 7, 4),
